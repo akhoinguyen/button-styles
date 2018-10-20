@@ -11,6 +11,7 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  margin: .75em;
 }
 
 a {
@@ -20,7 +21,6 @@ a {
 
 .btn {
   background-color: #333;
-  padding: .4em;
   border: 3px solid #333;
   border-radius: 8px;
 }
@@ -31,7 +31,6 @@ a {
 
 .btn-subtle {
   background-color: #ccc;
-  padding: .4em;
   border: 3px solid #ccc;
   border-radius: 8px;
 }
@@ -41,10 +40,41 @@ a {
   border: 3px solid #666;
 }
 
+.btn-ghost {
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 8px;
+  color: #000;
+}
 
+.btn-ghost:hover {
+  background-color: #666;
+  border: 3px solid #666;
+  color: #fff;
+}
 
+.btn-warning {
+  background-color: #f33;
+  border: 3px solid #f33;
+  border-radius: 8px;
+}
 
-
+.btn-warning:hover {
+  background-color: #933;
+  border: 3px solid #933;
+}
+/* btn sizing*/
 .btn-norm {
   font-size: 1.15rem;
+    padding: .5em;
+}
+
+.btn-small {
+  font-size: .875rem;
+  padding: .5em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  padding: .5em;
 }
